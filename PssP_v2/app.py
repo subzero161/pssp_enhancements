@@ -197,7 +197,7 @@ def register_patient():
 
 
 @app.route('/register/provider', methods=['GET', 'POST'])
-def register_admin():
+def register_provider():
     # Output message if something goes wrong...
     msg = ''
     # Check if "username", "password" and "email" POST requests exist (user submitted form)
